@@ -8,3 +8,4 @@ dependencies:
   - openai
   - notebook
   - python-dotenv
+  - pandas
