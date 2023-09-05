@@ -11,6 +11,12 @@
 - [LangChain - Intro](https://learn.deeplearning.ai/langchain/lesson/1/introduction)
 - [LangChain - Chat with your data](https://learn.deeplearning.ai/langchain-chat-with-your-data/lesson/1/introduction)
 
+The notebooks are in `DeepLearning.AI Notebooks`. OpenAI API key is 
+required to run them.<br/>
+- `conda env create -f environment.yml`<br/>
+- `conda activate llm`<br/>
+- `jupyter notebook`
+
 ## FastAPI
 - [Cohere - Deployment](https://docs.cohere.com/docs/deploying-with-fastapi)
 
