@@ -31,7 +31,13 @@ API as well.<br/><br/>
 - [llama.cpp](https://github.com/ggerganov/llama.cpp) (also bindings for Python)
 - [TinyLlama](https://github.com/jzhang38/TinyLlama)
 
+## Embeddings
+- [Getting started with embeddings](https://huggingface.co/blog/getting-started-with-embeddings)
+- [Chat with Anything - From PDFs Files to Image Documents](https://github.com/keitazoumana/Medium-Articles-Notebooks/blob/main/Chat_With_Any_Document.ipynb) (Notebook with examples on file type 
+  detection, chunking, embedding)
+
 ## Finetuning
+- [DLAI Course Finetuning](https://learn.deeplearning.ai/finetuning-large-language-models/lesson/1/introduction)
 - [Optimize open LLMs using GPTQ (run on consumer hardware)](https://www.philschmid.de/gptq-llama)
 - [Digital Twins LLM](https://betterprogramming.pub/unleash-your-digital-twin-how-fine-tuning-llm-can-create-your-perfect-doppelganger-b5913e7dda2e?gi=2e25e4e85b76)
 
