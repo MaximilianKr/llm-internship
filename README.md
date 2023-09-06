@@ -2,9 +2,9 @@
 
 # General
 
+- [Open LLMs for Commercial Use](https://github.com/eugeneyan/open-llms)
 - [Overview Local LLM Models & APIs](https://llm.datasette.io/en/stable/plugins/directory.html)
 - [Huggingface Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
-- [Open LLMs for Commercial Use](https://github.com/eugeneyan/open-llms)
 - [Comparison of self-hosted LLMs and OpenAI: cost, text generation quality,
   development speed, privacy](https://betterprogramming.pub/you-dont-need-hosted-llms-do-you-1160b2520526)
 
@@ -23,9 +23,6 @@ API as well.<br/><br/>
 - `conda activate llm`<br/>
 - `jupyter notebook`
 
-## FastAPI
-- [Cohere - Deployment](https://docs.cohere.com/docs/deploying-with-fastapi)
-
 ## Llama 2
 - [How to prompt Llama 2](https://huggingface.co/blog/llama2#how-to-prompt-llama-2)
 - [llama.cpp](https://github.com/ggerganov/llama.cpp) (also bindings for Python)
@@ -35,6 +32,10 @@ API as well.<br/><br/>
 - [Getting started with embeddings](https://huggingface.co/blog/getting-started-with-embeddings)
 - [Chat with Anything - From PDFs Files to Image Documents](https://github.com/keitazoumana/Medium-Articles-Notebooks/blob/main/Chat_With_Any_Document.ipynb) (Notebook with examples on file type 
   detection, chunking, embedding)
+
+## Deployment
+- [FastAPI - Cohere - Deployment](https://docs.cohere.com/docs/deploying-with-fastapi)
+- [Frameworks for Serving LLMs](https://betterprogramming.pub/frameworks-for-serving-llms-60b7f7b23407)
 
 ## Finetuning
 - [DLAI Course Finetuning](https://learn.deeplearning.ai/finetuning-large-language-models/lesson/1/introduction)
