@@ -28,7 +28,7 @@
 
 ### DLAI courses
 - [LangChain - LangChain for LLM Application Development](https://learn.deeplearning.ai/langchain/lesson/1/introduction)
-- [LangChain - Chat with your data](https://learn.deeplearning.ai/langchain-chat-with-your-data/lesson/1/introduction)
+- [LangChain - Chat with Your Data](https://learn.deeplearning.ai/langchain-chat-with-your-data/lesson/1/introduction)
 
 The notebooks are in `DeepLearning.AI Notebooks`. **OpenAI API key is 
 required** to run them.<br/><br/>
@@ -44,6 +44,7 @@ API as well (where possible).<br/>
 ## Llama 2
 - [How to prompt Llama 2](https://huggingface.co/blog/llama2#how-to-prompt-llama-2)
 - [llama.cpp](https://github.com/ggerganov/llama.cpp) (also bindings for Python)
+- [Quantize Llama models with GGML and llama.cpp](https://towardsdatascience.com/quantize-llama-models-with-ggml-and-llama-cpp-3612dfbcc172)
 - [TinyLlama](https://github.com/jzhang38/TinyLlama) (still being trained)
 
 ## Embeddings
