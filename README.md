@@ -1,5 +1,17 @@
 # Material, resources, overview of LLMs
 
+- [General](#general)
+- [LangChain](#langchain)
+  - [DeepLearning.AI courses](#dlai-courses)
+- [Llama 2](#llama-2)
+- [Embeddings](#embeddings)
+- [Vector Database](#vector-database)
+- [Deployment](#deployment)
+- [Finetuning](#finetuning)
+- [Other Material](#other-material)
+  - [Prompt Injection](#prompt-injection)
+  - [Educational](#educational)
+
 # General
 
 - [Open LLMs for Commercial Use](https://github.com/eugeneyan/open-llms)
@@ -14,7 +26,7 @@
 - [LangSmith](https://smith.langchain.com/) (debugging, evaluating, monitoring 
   agents)
 
-### DeepLearning.AI courses
+### DLAI courses
 - [LangChain - LangChain for LLM Application Development](https://learn.deeplearning.ai/langchain/lesson/1/introduction)
 - [LangChain - Chat with your data](https://learn.deeplearning.ai/langchain-chat-with-your-data/lesson/1/introduction)
 
@@ -38,6 +50,11 @@ API as well (where possible).<br/>
 - [Getting started with embeddings](https://huggingface.co/blog/getting-started-with-embeddings)
 - [Chat with Anything - From PDFs Files to Image Documents](https://github.com/keitazoumana/Medium-Articles-Notebooks/blob/main/Chat_With_Any_Document.ipynb) (Notebook with examples on file type 
   detection, chunking, embedding)
+
+## Vector Database
+- [Chroma](https://www.trychroma.com/)
+- [privateGPT](https://github.com/imartinez/privateGPT) (example of using 
+Chroma)
 
 ## Deployment
 - [FastAPI - Cohere - Deployment](https://docs.cohere.com/docs/deploying-with-fastapi)
