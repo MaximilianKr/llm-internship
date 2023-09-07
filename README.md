@@ -9,24 +9,30 @@
   development speed, privacy](https://betterprogramming.pub/you-dont-need-hosted-llms-do-you-1160b2520526)
 
 ## Langchain
+- [ChatLangChain](https://chat.langchain.com/) (interactive documentation)
+- [LangChain Hub](https://smith.langchain.com/hub) (hub for prompts)
+- [LangSmith](https://smith.langchain.com/) (debugging, evaluating, monitoring 
+  agents)
 
 ### DeepLearning.AI courses
 - [LangChain - LangChain for LLM Application Development](https://learn.deeplearning.ai/langchain/lesson/1/introduction)
 - [LangChain - Chat with your data](https://learn.deeplearning.ai/langchain-chat-with-your-data/lesson/1/introduction)
 
-The notebooks are in `DeepLearning.AI Notebooks`. OpenAI API key is 
-required to run them.<br/>
-*Objective*: run Llama 2 locally and make the notebooks work with it via 
-API as well.<br/><br/>
+The notebooks are in `DeepLearning.AI Notebooks`. **OpenAI API key is 
+required** to run them.<br/><br/>
 **Setup**:
-- `conda env create -f environment.yml`<br/>
-- `conda activate llm`<br/>
+- `conda env create -f environment.yml`
+- `conda activate llm`
 - `jupyter notebook`
+
+*Objective*: run Llama 2 locally and make the notebooks work with it via 
+API as well (where possible).<br/>
+[LangChain + Streamlit + Llama Guide](https://ai.plainenglish.io/%EF%B8%8F-langchain-streamlit-llama-bringing-conversational-ai-to-your-local-machine-a1736252b172?gi=cfed6e717c75)
 
 ## Llama 2
 - [How to prompt Llama 2](https://huggingface.co/blog/llama2#how-to-prompt-llama-2)
 - [llama.cpp](https://github.com/ggerganov/llama.cpp) (also bindings for Python)
-- [TinyLlama](https://github.com/jzhang38/TinyLlama)
+- [TinyLlama](https://github.com/jzhang38/TinyLlama) (still being trained)
 
 ## Embeddings
 - [Getting started with embeddings](https://huggingface.co/blog/getting-started-with-embeddings)
