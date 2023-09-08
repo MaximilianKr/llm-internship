@@ -12,6 +12,7 @@ dependencies:
   - pypdf
   - tiktoken
   - chromadb
+  - lark
 
 post-link:
   - conda config --set channel_priority strict
