@@ -28,3 +28,10 @@
 
 [Source](https://ai.plainenglish.io/%EF%B8%8F-langchain-streamlit-llama-bringing-conversational-ai-to-your-local-machine-a1736252b172)</br></br>
 
+
+### Llama-2-7b-chat-hf
+
+> You will need ~8GB of GPU RAM for inference and running on CPU is practically
+> impossible.
+
+[Source](https://medium.com/@murtuza753/using-llama-2-0-faiss-and-langchain-for-question-answering-on-your-own-data-682241488476)
