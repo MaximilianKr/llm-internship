@@ -39,7 +39,8 @@ required** to run them.<br/><br/>
 
 *Objective*: run Llama 2 locally and make the notebooks work with it via 
 API as well (where possible).<br/>
-[LangChain + Streamlit + Llama Guide](https://ai.plainenglish.io/%EF%B8%8F-langchain-streamlit-llama-bringing-conversational-ai-to-your-local-machine-a1736252b172?gi=cfed6e717c75)
+- [LangChain + Streamlit + Llama Guide](https://ai.plainenglish.io/%EF%B8%8F-langchain-streamlit-llama-bringing-conversational-ai-to-your-local-machine-a1736252b172?gi=cfed6e717c75)
+- [LangChain Local LLMs](https://python.langchain.com/docs/guides/local_llms)
 
 ## Llama 2
 - [How to prompt Llama 2](https://huggingface.co/blog/llama2#how-to-prompt-llama-2)
@@ -59,12 +60,14 @@ Chroma)
 
 ## Deployment
 - [FastAPI - Cohere - Deployment](https://docs.cohere.com/docs/deploying-with-fastapi)
+- [LangChain Guide Deployment](https://python.langchain.com/docs/guides/deployments/)
 - [Frameworks for Serving LLMs](https://betterprogramming.pub/frameworks-for-serving-llms-60b7f7b23407)
 
 ## Finetuning
 - [DLAI Course Finetuning](https://learn.deeplearning.ai/finetuning-large-language-models/lesson/1/introduction)
 - [Optimize open LLMs using GPTQ (run on consumer hardware)](https://www.philschmid.de/gptq-llama)
 - [Digital Twins LLM](https://betterprogramming.pub/unleash-your-digital-twin-how-fine-tuning-llm-can-create-your-perfect-doppelganger-b5913e7dda2e?gi=2e25e4e85b76)
+- [LangChain Finetune model in your voice (from chat data)](https://blog.langchain.dev/chat-loaders-finetune-a-chatmodel-in-your-voice/)
 
 ## Other Material
 
