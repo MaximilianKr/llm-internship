@@ -1,4 +1,5 @@
 
+# Base Models
 ## Hardware Requirements 
 
 > To load a model in full precision, i.e. 32-bit (or float-32) on a GPU for 
@@ -34,4 +35,39 @@
 > You will need ~8GB of GPU RAM for inference and running on CPU is practically
 > impossible.
 
-[Source](https://medium.com/@murtuza753/using-llama-2-0-faiss-and-langchain-for-question-answering-on-your-own-data-682241488476)
+[Source](https://medium.com/@murtuza753/using-llama-2-0-faiss-and-langchain-for-question-answering-on-your-own-data-682241488476)</br></br>
+
+> The model you use will vary depending on your hardware. For good results, you 
+> should have at least 10GB VRAM at a minimum for the 7B model, though you can 
+> sometimes see success with 8GB VRAM. The 13B model can run on GPUs like the 
+> RTX 3090 and RTX 4090. The largest model, however, will require very powerful 
+> hardware like an A100 80GB.
+
+[Source](https://easywithai.com/resources/llama-2/)</br></br>
+
+# Quantized Models
+
+> In a nutshell:<br>
+> Quantized models are basically compressed or "shrunken" versions, easier to 
+> run if you don't have strong hardware (and is also easier on storage).<br><br>
+> They usually perform slightly worse than their unquantized versions: the 
+> lower the quant, the worse it gets (although 8 bit is almost if not just as 
+> good as its unquantized version). 4 bit seems to be the best compromise 
+> between performance and size/speed, but we now have 5 bit, 6 bit, 2 bit, etc.
+> you can choose from depending on your need.<br><br>
+> Another rule is while the lower a quantization is, parameter count is still 
+> better. So a model with lots of parameters but a low quant will still perform
+> better than one with a higher quant (or even unquantized) but less 
+> parameters. So in theory, a quantized 13b will work better than an 
+> unquantized 7b if I'm right.
+
+[Source](https://www.reddit.com/r/LocalLLaMA/comments/15zz81s/llama2_quantized_model_vs_regular_one_whats_the/)
+
+## Hardware Requirements
+
+> The best technique depends on your GPU: if you have enough VRAM to fit the 
+> entire quantized model, GPTQ with ExLlama will be the fastest. If that’s 
+> not the case, you can offload some layers and use GGML models with llama.cpp
+> to run your LLM.
+
+[Source](https://towardsdatascience.com/quantize-llama-models-with-ggml-and-llama-cpp-3612dfbcc172)</br></br>
