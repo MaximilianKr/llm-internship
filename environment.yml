@@ -13,6 +13,4 @@ dependencies:
   - tiktoken
   - chromadb
   - lark
-
-post-link:
-  - conda config --set channel_priority strict
+  - sentence-transformers
