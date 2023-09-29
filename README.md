@@ -3,6 +3,7 @@
 - [General](#general)
 - [LangChain](#langchain)
   - [DeepLearning.AI courses](#dlai-courses)
+  - [Example Implementations / Guides](#example-implementations--guides)
 - [Llama 2](#llama-2)
 - [Embeddings](#embeddings)
 - [Vector Database](#vector-database)
