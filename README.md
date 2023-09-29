@@ -15,7 +15,7 @@
 # General
 
 - [Open LLMs for Commercial Use](https://github.com/eugeneyan/open-llms)
-- [Overview Local LLM Models & APIs](https://llm.datasette.io/en/stable/plugins/directory.html)
+- [text-generation-webui](https://github.com/oobabooga/text-generation-webui) (fast inference on most local models)
 - [Huggingface Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 - [Comparison of self-hosted LLMs and OpenAI: cost, text generation quality,
   development speed, privacy](https://betterprogramming.pub/you-dont-need-hosted-llms-do-you-1160b2520526)
@@ -39,8 +39,17 @@ required** to run them.<br/><br/>
 
 *Objective*: run Llama 2 locally and make the notebooks work with it via 
 API as well (where possible).<br/>
-- [LangChain + Streamlit + Llama Guide](https://ai.plainenglish.io/%EF%B8%8F-langchain-streamlit-llama-bringing-conversational-ai-to-your-local-machine-a1736252b172?gi=cfed6e717c75)
+
+### Example Implementations / Guides
+
 - [LangChain Local LLMs](https://python.langchain.com/docs/guides/local_llms)
+- [LangChain + Streamlit + Llama Guide](https://ai.plainenglish.io/%EF%B8%8F-langchain-streamlit-llama-bringing-conversational-ai-to-your-local-machine-a1736252b172?gi=cfed6e717c75)
+- [Llama v2.0, FAISS in Python using LangChain](https://webcache.googleusercontent.com/search?q=cache:https://medium.com/@mayuresh.gawai/implementation-of-llama-v2-in-python-using-langchain-%EF%B8%8F-ebebe82e881b)
+- [Answering Question About your Documents Using LangChain](https://webcache.googleusercontent.com/search?q=cache:https://artificialcorner.com/answering-question-about-your-documents-using-langchain-and-not-openai-2f75b8d639ae)
+
+**Without LangChain:**
+-  [Building RAG from Scratch](https://gpt-index.readthedocs.io/en/latest/examples/low_level/oss_ingestion_retrieval.html) (with 
+   LlamaIndex)
 
 ## Llama 2
 - [How to prompt Llama 2](https://huggingface.co/blog/llama2#how-to-prompt-llama-2)
@@ -56,12 +65,11 @@ API as well (where possible).<br/>
 
 ## Vector Database
 - [Chroma](https://www.trychroma.com/)
-- [privateGPT](https://github.com/imartinez/privateGPT) (example of using 
-Chroma)
+- [privateGPT](https://github.com/imartinez/privateGPT) (example of using Chroma)
 
 ## Deployment
-- [FastAPI - Cohere - Deployment](https://docs.cohere.com/docs/deploying-with-fastapi)
 - [LangChain Guide Deployment](https://python.langchain.com/docs/guides/deployments/)
+- [LangChain Deployment Templates](https://python.langchain.com/docs/guides/deployments/template_repos)
 - [Frameworks for Serving LLMs](https://betterprogramming.pub/frameworks-for-serving-llms-60b7f7b23407)
 
 ## Finetuning
