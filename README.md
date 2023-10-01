@@ -47,6 +47,7 @@ API as well (where possible).<br/>
 - [LangChain + Streamlit + Llama Guide](https://ai.plainenglish.io/%EF%B8%8F-langchain-streamlit-llama-bringing-conversational-ai-to-your-local-machine-a1736252b172?gi=cfed6e717c75)
 - [Llama v2.0, FAISS in Python using LangChain](https://webcache.googleusercontent.com/search?q=cache:https://medium.com/@mayuresh.gawai/implementation-of-llama-v2-in-python-using-langchain-%EF%B8%8F-ebebe82e881b)
 - [Answering Question About your Documents Using LangChain](https://webcache.googleusercontent.com/search?q=cache:https://artificialcorner.com/answering-question-about-your-documents-using-langchain-and-not-openai-2f75b8d639ae)
+- [Using LLaMA 2.0, FAISS and LangChain for Question-Answering](https://medium.com/@murtuza753/using-llama-2-0-faiss-and-langchain-for-question-answering-on-your-own-data-682241488476)
 
 **Without LangChain:**
 -  [Building RAG from Scratch](https://gpt-index.readthedocs.io/en/latest/examples/low_level/oss_ingestion_retrieval.html) (with 
@@ -57,7 +58,12 @@ API as well (where possible).<br/>
 - [llama.cpp](https://github.com/ggerganov/llama.cpp) (also bindings for Python)
 - [Quantize Llama models with GGML and llama.cpp](https://towardsdatascience.com/quantize-llama-models-with-ggml-and-llama-cpp-3612dfbcc172)
 - [TinyLlama](https://github.com/jzhang38/TinyLlama) (still being trained)
-- [Using LLaMA 2.0, FAISS and LangChain for Question-Answering](https://medium.com/@murtuza753/using-llama-2-0-faiss-and-langchain-for-question-answering-on-your-own-data-682241488476)
+- [Language Support for Large Language Models](https://heidloff.net/article/llm-languages-german/)
+  - **TLDR: Llama2 usage in other languages than English as out-of-scope**
+  - solutions: 
+    - append *"Answer in German"* to initial prompt (in English)
+    - prompt in German
+    - use fine-tuned model for German (beware of licensing and quality) 
 
 ## Embeddings
 - [Getting started with embeddings](https://huggingface.co/blog/getting-started-with-embeddings)
@@ -74,8 +80,8 @@ API as well (where possible).<br/>
 - [Frameworks for Serving LLMs](https://betterprogramming.pub/frameworks-for-serving-llms-60b7f7b23407)
 
 ## Finetuning
+- [RAG vs Finetuning](https://towardsdatascience.com/rag-vs-finetuning-which-is-the-best-tool-to-boost-your-llm-application-94654b1eaba7)
 - [DLAI Course Finetuning](https://learn.deeplearning.ai/finetuning-large-language-models/lesson/1/introduction)
-- [Optimize open LLMs using GPTQ (run on consumer hardware)](https://www.philschmid.de/gptq-llama)
 - [Digital Twins LLM](https://betterprogramming.pub/unleash-your-digital-twin-how-fine-tuning-llm-can-create-your-perfect-doppelganger-b5913e7dda2e?gi=2e25e4e85b76)
 - [LangChain Finetune model in your voice (from chat data)](https://blog.langchain.dev/chat-loaders-finetune-a-chatmodel-in-your-voice/)
 
