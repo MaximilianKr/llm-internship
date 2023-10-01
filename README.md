@@ -1,6 +1,7 @@
 # Material, resources, overview of LLMs
 
 - [General](#general)
+  - [Tools](#tools)
 - [LangChain](#langchain)
   - [DeepLearning.AI courses](#dlai-courses)
   - [Example Implementations / Guides](#example-implementations--guides)
@@ -13,13 +14,17 @@
   - [Prompt Injection](#prompt-injection)
   - [Educational](#educational)
 
-# General
+## General
 
 - [Open LLMs for Commercial Use](https://github.com/eugeneyan/open-llms)
-- [text-generation-webui](https://github.com/oobabooga/text-generation-webui) (fast inference on most local models)
 - [Huggingface Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+- [Build ChatGPT from GPT-3](https://learnprompting.org/docs/applied_prompting/build_chatgpt)
 - [Comparison of self-hosted LLMs and OpenAI: cost, text generation quality,
   development speed, privacy](https://betterprogramming.pub/you-dont-need-hosted-llms-do-you-1160b2520526)
+
+### Tools
+- [text-generation-webui](https://github.com/oobabooga/text-generation-webui) (fast inference on most local models)
+- [LocalAI](https://github.com/go-skynet/LocalAI) (OpenAI drop-in alternative REST API)
 
 ## Langchain
 - [ChatLangChain](https://chat.langchain.com/) (interactive documentation)
@@ -37,8 +42,9 @@ required** to run them.<br/><br/>
 - `conda activate llm`
 - `jupyter notebook`
 
-*Objective*: run Llama 2 locally and make the notebooks work with it via 
-API as well (where possible).<br/>
+*Objective*: run Llama 2 locally and make notebooks work via `LocalAI` as 
+OpenAI API replacement<br/>
+- [Data Query example with LangChain / LocalAI](https://github.com/go-skynet/LocalAI/tree/master/examples/langchain-chroma)
 
 ### Example Implementations / Guides
 
@@ -47,6 +53,7 @@ API as well (where possible).<br/>
 - [Llama v2.0, FAISS in Python using LangChain](https://webcache.googleusercontent.com/search?q=cache:https://medium.com/@mayuresh.gawai/implementation-of-llama-v2-in-python-using-langchain-%EF%B8%8F-ebebe82e881b)
 - [Answering Question About your Documents Using LangChain](https://webcache.googleusercontent.com/search?q=cache:https://artificialcorner.com/answering-question-about-your-documents-using-langchain-and-not-openai-2f75b8d639ae)
 - [Using LLaMA 2.0, FAISS and LangChain for Question-Answering](https://medium.com/@murtuza753/using-llama-2-0-faiss-and-langchain-for-question-answering-on-your-own-data-682241488476)
+- [Unlocking the Power of LangChain: Building Applications with Large Language Models](https://medium.com/@_aigeek/unlocking-the-power-of-langchain-building-applications-with-large-language-models-e834e5f50acb)
 
 **Without LangChain:**
 -  [Building RAG from Scratch](https://gpt-index.readthedocs.io/en/latest/examples/low_level/oss_ingestion_retrieval.html) (with 
@@ -82,7 +89,7 @@ API as well (where possible).<br/>
 ## Finetuning
 - [RAG vs Finetuning](https://towardsdatascience.com/rag-vs-finetuning-which-is-the-best-tool-to-boost-your-llm-application-94654b1eaba7)
 - [DLAI Course Finetuning](https://learn.deeplearning.ai/finetuning-large-language-models/lesson/1/introduction)
-- [Digital Twins LLM](https://betterprogramming.pub/unleash-your-digital-twin-how-fine-tuning-llm-can-create-your-perfect-doppelganger-b5913e7dda2e?gi=2e25e4e85b76)
+- [Finetuning Digital Twins](https://betterprogramming.pub/unleash-your-digital-twin-how-fine-tuning-llm-can-create-your-perfect-doppelganger-b5913e7dda2e?gi=2e25e4e85b76)
 - [LangChain Finetune model in your voice (from chat data)](https://blog.langchain.dev/chat-loaders-finetune-a-chatmodel-in-your-voice/)
 
 ## Other Material
