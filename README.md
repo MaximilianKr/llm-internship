@@ -24,8 +24,7 @@
 ## Langchain
 - [ChatLangChain](https://chat.langchain.com/) (interactive documentation)
 - [LangChain Hub](https://smith.langchain.com/hub) (hub for prompts)
-- [LangSmith](https://smith.langchain.com/) (debugging, evaluating, monitoring 
-  agents)
+- [LangSmith](https://smith.langchain.com/) (debugging, evaluating, monitoring agents)
 
 ### DLAI courses
 - [LangChain - LangChain for LLM Application Development](https://learn.deeplearning.ai/langchain/lesson/1/introduction)
@@ -63,12 +62,13 @@ API as well (where possible).<br/>
   - solutions: 
     - append *"Answer in German"* to initial prompt (in English)
     - prompt in German
-    - use fine-tuned model for German (beware of licensing and quality) 
+    - use fine-tuned model for German (beware of licensing and quality)
+      - e.g. [Models from Florian Zimmermeister on HF](https://huggingface.co/flozi00)
 
 ## Embeddings
 - [Getting started with embeddings](https://huggingface.co/blog/getting-started-with-embeddings)
-- [Chat with Anything - From PDFs Files to Image Documents](https://github.com/keitazoumana/Medium-Articles-Notebooks/blob/main/Chat_With_Any_Document.ipynb) (Notebook with examples on file type 
-  detection, chunking, embedding)
+- [Chat with Anything - From PDFs Files to Image Documents](https://github.com/keitazoumana/Medium-Articles-Notebooks/blob/main/Chat_With_Any_Document.ipynb)
+  - Notebook with examples on file type detection, chunking, embedding
 
 ## Vector Database
 - [Chroma](https://www.trychroma.com/)
