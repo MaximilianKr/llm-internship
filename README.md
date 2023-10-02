@@ -25,7 +25,11 @@
 ### Tools
 - [text-generation-webui](https://github.com/oobabooga/text-generation-webui) (fast inference on most local models)
 - [LocalAI](https://github.com/go-skynet/LocalAI) (OpenAI drop-in alternative REST API)
-
+- [BionicGPT](https://github.com/purton-tech/bionicgpt) (onprem ChatGPT 
+  replacement)
+- [OpenAccess-AI-Collective/axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) (fine-tune local models)
+- [Petals](https://github.com/bigscience-workshop/petals) (bittorrent-like 
+  deployment of local models)
 ## Langchain
 - [ChatLangChain](https://chat.langchain.com/) (interactive documentation)
 - [LangChain Hub](https://smith.langchain.com/hub) (hub for prompts)
@@ -64,8 +68,8 @@ OpenAI API replacement<br/>
 - [llama.cpp](https://github.com/ggerganov/llama.cpp) (also bindings for Python)
 - [Quantize Llama models with GGML and llama.cpp](https://towardsdatascience.com/quantize-llama-models-with-ggml-and-llama-cpp-3612dfbcc172)
 - [TinyLlama](https://github.com/jzhang38/TinyLlama) (still being trained)
-- [Language Support for Large Language Models](https://heidloff.net/article/llm-languages-german/)
-  - **TLDR: Llama2 usage in other languages than English as out-of-scope**
+- [Other Languages Support](https://heidloff.net/article/llm-languages-german/)
+  - **TLDR: Llama2 usage in other than English out-of-scope**
   - solutions: 
     - append *"Answer in German"* to initial prompt (in English)
     - prompt in German
@@ -91,6 +95,7 @@ OpenAI API replacement<br/>
 - [DLAI Course Finetuning](https://learn.deeplearning.ai/finetuning-large-language-models/lesson/1/introduction)
 - [Finetuning Digital Twins](https://betterprogramming.pub/unleash-your-digital-twin-how-fine-tuning-llm-can-create-your-perfect-doppelganger-b5913e7dda2e?gi=2e25e4e85b76)
 - [LangChain Finetune model in your voice (from chat data)](https://blog.langchain.dev/chat-loaders-finetune-a-chatmodel-in-your-voice/)
+- [Fine-Tune Your Own Llama 2 Model in a Colab Notebook](https://webcache.googleusercontent.com/search?q=cache:https://towardsdatascience.com/fine-tune-your-own-llama-2-model-in-a-colab-notebook-df9823a04a32)
 
 ## Other Material
 
