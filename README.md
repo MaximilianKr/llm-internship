@@ -39,16 +39,10 @@
 - [LangChain - LangChain for LLM Application Development](https://learn.deeplearning.ai/langchain/lesson/1/introduction)
 - [LangChain - Chat with Your Data](https://learn.deeplearning.ai/langchain-chat-with-your-data/lesson/1/introduction)
 
-The notebooks are in `DeepLearning.AI Notebooks`. **OpenAI API key is 
-required** to run them.<br/><br/>
-**Setup**:
-- `conda env create -f environment.yml`
-- `conda activate llm`
-- `jupyter notebook`
-
-*Objective*: run Llama 2 locally and make notebooks work via `LocalAI` as 
-OpenAI API replacement<br/>
-- [Data Query example with LangChain / LocalAI](https://github.com/go-skynet/LocalAI/tree/master/examples/langchain-chroma)
+The notebooks include several examples on how to use `LangChain` and are 
+located in `DeepLearning.AI Notebooks`. Follow the instructions 
+in the `README.md` in there to set up your environment and use either your 
+`OpenAI API key` or `LocalAI` to run the notebooks.
 
 ### Example Implementations / Guides
 
@@ -82,8 +76,9 @@ OpenAI API replacement<br/>
   - Notebook with examples on file type detection, chunking, embedding
 
 ## Vector Database
-- [Chroma](https://www.trychroma.com/)
+- [ChromaDB](https://www.trychroma.com/)
 - [privateGPT](https://github.com/imartinez/privateGPT) (example of using Chroma)
+- [Weaviate](https://weaviate.io/)
 
 ## Deployment
 - [LangChain Guide Deployment](https://python.langchain.com/docs/guides/deployments/)
@@ -108,3 +103,4 @@ OpenAI API replacement<br/>
 - [Vicki Boykis: What Are Embeddings?](https://raw.githubusercontent.com/veekaybee/what_are_embeddings/main/embeddings.pdf)
 - [Transformers Code step by step](https://towardsdatascience.com/nanogpt-learning-transformers-code-first-part-1-f2044cf5bca0)
 - [Stanford NLU Spring 2023 Playlist](https://www.youtube.com/playlist?list=PLoROMvodv4rOwvldxftJTmoR3kRcWkJBp)
+- [reddit/Starter Guide for Playing with Your Own Local AI](https://www.reddit.com/r/LocalLLaMA/comments/16y95hk/a_starter_guide_for_playing_with_your_own_local_ai/)

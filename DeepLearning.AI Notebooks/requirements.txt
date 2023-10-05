@@ -1,0 +1,10 @@
+langchain
+openai
+notebook
+ipywidgets
+python-dotenv
+pandas
+pypdf
+tiktoken
+chromadb
+lark
