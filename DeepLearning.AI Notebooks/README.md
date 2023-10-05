@@ -50,7 +50,9 @@ pip install -r requirements.txt
 
 ## Usage
 
-- after setting up LocalAI and environment run in your CLI:
+- after setting up LocalAI and environment, make sure your LocalAI docker 
+  container is running with a model or use your OpenAI API key and call in 
+  your CLI:
 ```
 jupyter notebook
 ```
