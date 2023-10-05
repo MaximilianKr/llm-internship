@@ -13,3 +13,6 @@ dependencies:
   - tiktoken
   - chromadb
   - lark
+  - docarray
+  - wikipedia
+  - numexpr
