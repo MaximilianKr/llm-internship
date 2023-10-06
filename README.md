@@ -5,6 +5,8 @@
 - [LangChain](#langchain)
   - [DeepLearning.AI courses](#dlai-courses)
   - [Example Implementations / Guides](#example-implementations--guides)
+    - [Python](#python)
+    - [Javascript](#javascript)
 - [Llama 2](#llama-2)
 - [Embeddings](#embeddings)
 - [Vector Database](#vector-database)
@@ -30,6 +32,7 @@
 - [OpenAccess-AI-Collective/axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) (fine-tune local models)
 - [Petals](https://github.com/bigscience-workshop/petals) (bittorrent-like 
   deployment of local models)
+
 ## Langchain
 - [ChatLangChain](https://chat.langchain.com/) (interactive documentation)
 - [LangChain Hub](https://smith.langchain.com/hub) (hub for prompts)
@@ -46,6 +49,8 @@ in the `README.md` in there to set up your environment and use either your
 
 ### Example Implementations / Guides
 
+#### Python
+
 - [LangChain Local LLMs](https://python.langchain.com/docs/guides/local_llms)
 - [LangChain + Streamlit + Llama Guide](https://ai.plainenglish.io/%EF%B8%8F-langchain-streamlit-llama-bringing-conversational-ai-to-your-local-machine-a1736252b172?gi=cfed6e717c75)
 - [Llama v2.0, FAISS in Python using LangChain](https://webcache.googleusercontent.com/search?q=cache:https://medium.com/@mayuresh.gawai/implementation-of-llama-v2-in-python-using-langchain-%EF%B8%8F-ebebe82e881b)
@@ -56,6 +61,11 @@ in the `README.md` in there to set up your environment and use either your
 **Without LangChain:**
 -  [Building RAG from Scratch](https://gpt-index.readthedocs.io/en/latest/examples/low_level/oss_ingestion_retrieval.html) (with 
    LlamaIndex)
+
+#### Javascript
+
+- [Building an AI chatbot with Next.js, Langchain, and OpenAI](https://vercel.com/guides/nextjs-langchain-vercel-ai)
+- [LangChain Deployment with Next.js](https://js.langchain.com/docs/guides/deployment/nextjs)
 
 ## Llama 2
 - [How to prompt Llama 2](https://huggingface.co/blog/llama2#how-to-prompt-llama-2)
