@@ -11,3 +11,5 @@ lark
 docarray
 wikipedia
 numexpr
+scikit-learn
+panel

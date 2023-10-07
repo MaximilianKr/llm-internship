@@ -16,3 +16,5 @@ dependencies:
   - docarray
   - wikipedia
   - numexpr
+  - scikit-learn
+  - panel
