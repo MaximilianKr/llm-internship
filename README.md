@@ -82,12 +82,13 @@ in the `README.md` in there to set up your environment and use either your
 
 ## Embeddings
 - [Getting started with embeddings](https://huggingface.co/blog/getting-started-with-embeddings)
+- [SBERT Transformer Embedding Models](https://www.sbert.net/docs/pretrained_models.html) (local)
 - [Chat with Anything - From PDFs Files to Image Documents](https://github.com/keitazoumana/Medium-Articles-Notebooks/blob/main/Chat_With_Any_Document.ipynb)
   - Notebook with examples on file type detection, chunking, embedding
 
 ## Vector Database
 - [ChromaDB](https://www.trychroma.com/)
-- [privateGPT](https://github.com/imartinez/privateGPT) (example of using Chroma)
+  - [privateGPT](https://github.com/imartinez/privateGPT) (example of using Chroma)
 - [Weaviate](https://weaviate.io/)
 
 ## Deployment
