@@ -27,7 +27,8 @@ call Setup.bat
 
 ### Setup environment
 
-- make sure you are inside this directory and use either `Conda` or `pip` setup
+- you need `python3.10` otherwise requirements setup will fail
+- make sure you are inside this directory `DeepLearning.AI Notebooks` and use either `conda` or `pip` setup
 
 #### Conda
 ```
