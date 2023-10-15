@@ -8,6 +8,7 @@
     - [Python](#python)
     - [Javascript](#javascript)
 - [Llama 2](#llama-2)
+  - [German](#german)
 - [Embeddings](#embeddings)
 - [Vector Database](#vector-database)
 - [Deployment](#deployment)
@@ -72,17 +73,25 @@ in the `README.md` in there to set up your environment and use either your
 - [llama.cpp](https://github.com/ggerganov/llama.cpp) (also bindings for Python)
 - [Quantize Llama models with GGML and llama.cpp](https://towardsdatascience.com/quantize-llama-models-with-ggml-and-llama-cpp-3612dfbcc172)
 - [TinyLlama](https://github.com/jzhang38/TinyLlama) (still being trained)
+
+### German
 - [Other Languages Support](https://heidloff.net/article/llm-languages-german/)
   - **TLDR: Llama2 usage in other than English out-of-scope**
   - solutions: 
     - append *"Answer in German"* to initial prompt (in English)
     - prompt in German
     - use fine-tuned model for German (beware of licensing and quality)
-      - e.g. [Models from Florian Zimmermeister on HF](https://huggingface.co/flozi00)
+
+#### Fine-tuned Models
+- [SauerkrautLM](https://huggingface.co/VAGOsolutions)
+- [LeoLM](https://huggingface.co/LeoLM)
+- [German Assistant](https://huggingface.co/flozi00)
+- [EM German LEO Mistral](https://huggingface.co/jphme/em_german_leo_mistral) (quantized also available)
 
 ## Embeddings
 - [Getting started with embeddings](https://huggingface.co/blog/getting-started-with-embeddings)
 - [SBERT Transformer Embedding Models](https://www.sbert.net/docs/pretrained_models.html) (local)
+- [HF text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference) (local container)
 - [Chat with Anything - From PDFs Files to Image Documents](https://github.com/keitazoumana/Medium-Articles-Notebooks/blob/main/Chat_With_Any_Document.ipynb)
   - Notebook with examples on file type detection, chunking, embedding
 
