@@ -71,8 +71,11 @@ in the `README.md` in there to set up your environment and use either your
 ## Llama 2
 - [How to prompt Llama 2](https://huggingface.co/blog/llama2#how-to-prompt-llama-2)
 - [llama.cpp](https://github.com/ggerganov/llama.cpp) (also bindings for Python)
+- [Talk-Llama](https://github.com/ggerganov/whisper.cpp/tree/master/examples/talk-llama) (local implementation with `llama.cpp` 
+  and `whisper`)
 - [Quantize Llama models with GGML and llama.cpp](https://towardsdatascience.com/quantize-llama-models-with-ggml-and-llama-cpp-3612dfbcc172)
 - [TinyLlama](https://github.com/jzhang38/TinyLlama) (still being trained)
+
 
 ### German
 - [Other Languages Support](https://heidloff.net/article/llm-languages-german/)
@@ -96,8 +99,11 @@ in the `README.md` in there to set up your environment and use either your
   - Notebook with examples on file type detection, chunking, embedding
 
 ## Vector Database
+#### Hosted
+- [Pinecone](https://www.pinecone.io/) (free tier available for one 
+  index/project)
+#### Local
 - [ChromaDB](https://www.trychroma.com/)
-  - [privateGPT](https://github.com/imartinez/privateGPT) (example of using Chroma)
 - [Weaviate](https://weaviate.io/)
 
 ## Deployment
@@ -122,5 +128,6 @@ in the `README.md` in there to set up your environment and use either your
 - [FCC Agile Software Development Handbook](https://www.freecodecamp.org/news/agile-software-development-handbook/)
 - [Vicki Boykis: What Are Embeddings?](https://raw.githubusercontent.com/veekaybee/what_are_embeddings/main/embeddings.pdf)
 - [Transformers Code step by step](https://towardsdatascience.com/nanogpt-learning-transformers-code-first-part-1-f2044cf5bca0)
+- [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
 - [Stanford NLU Spring 2023 Playlist](https://www.youtube.com/playlist?list=PLoROMvodv4rOwvldxftJTmoR3kRcWkJBp)
 - [reddit/Starter Guide for Playing with Your Own Local AI](https://www.reddit.com/r/LocalLLaMA/comments/16y95hk/a_starter_guide_for_playing_with_your_own_local_ai/)
