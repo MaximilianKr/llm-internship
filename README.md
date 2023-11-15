@@ -31,13 +31,18 @@
 - [BionicGPT](https://github.com/purton-tech/bionicgpt) (onprem ChatGPT 
   replacement)
 - [OpenAccess-AI-Collective/axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) (fine-tune local models)
+- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) (easy 
+  finetuning framework for popular local models)
 - [Petals](https://github.com/bigscience-workshop/petals) (bittorrent-like 
   deployment of local models)
 
-## Langchain
+## LangChain
 - [ChatLangChain](https://chat.langchain.com/) (interactive documentation)
-- [LangChain Hub](https://smith.langchain.com/hub) (hub for prompts)
 - [LangSmith](https://smith.langchain.com/) (debugging, evaluating, monitoring agents)
+- [LangServe](https://github.com/langchain-ai/langserve) (deploy LangChain 
+  code)
+- [OpenGPTs](https://github.com/langchain-ai/opengpts) (OSS alternative to 
+  OpenAIs [Custom GPTs](https://openai.com/blog/introducing-gpts))
 
 ### DLAI courses
 - [LangChain - LangChain for LLM Application Development](https://learn.deeplearning.ai/langchain/lesson/1/introduction)
